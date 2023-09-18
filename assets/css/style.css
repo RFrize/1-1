@@ -1,0 +1,48 @@
+body {
+    background-image: url("../img/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Стилізація для центрованого контенту */
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h3 {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Стилізація заголовка */
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Стилізація тексту параграфів */
+p {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Стилізація кнопки */
+.centered-button {
+    color: #fff; /* Контрастний колір шрифту */
+    background-color: #333; /* Фоновий колір кнопки */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px; /* Додатковий відступ між кнопкою та текстом */
+}
+
+.centered-button:hover {
+    background-color: #555; /* Зміна фонового кольору при наведенні */
+}
